@@ -1,0 +1,54 @@
+ // var closureName: ((ParameterTypes) -> (ReturnType))?
+
+typedef void(^completionHandler)(NSURLResponse* response, NSData* data, NSError* connectionError,NSURLConnection *connection);
+
+For Array
+
+ let jsonData:NSArray = try (NSJSONSerialization.JSONObjectWithData(data!, options:NSJSONReadingOptions.MutableContainers ) as? NSArray)!
+
+
+For Dict
+
+//      let jsonData:NSDictionary = try (NSJSONSerialization.JSONObjectWithData(data!, options:NSJSONReadingOptions.MutableContainers ) as? NSDictionary)!
+
+
+   func getDependencyProtocol<instancetype:AnyObject>(protocolName:String) -> instancetype
+
+//https://toiletnew.epicenterlabs.com/index.php?module=default&action=listall
+
+
+
+
+//                    let jsonData:NSDictionary = try (NSJSONSerialization.JSONObjectWithData(data!, options:NSJSONReadingOptions.MutableContainers ) as? NSDictionary)!
+
+//    let jsonData:NSArray = try (NSJSONSerialization.JSONObjectWithData(data!, options:NSJSONReadingOptions.MutableContainers ) as? NSArray)!
+
+
+
+Sample Post Request
+
+
+thtps://hybrislargetestelb-530946546.ap-southeast-1.elb.amazonaws.com/preprod/api/v1/ezone/cart/multipleEntry?lang=en
+
+
+
+POST DATA : codeListString=6000005 805&pinCode=560066&qty=1
+//              accountServi.getCart({ (success, data, response) in
+//                print (response)
+//                }) { (error) in
+//                    //
+//        }
+
+//        accountServi.getBanners({ (success, data, response) in
+//            print(response)
+//            }) { (error) in
+//                print(error)
+//        }
+//        accountServi.setServiceabilityArea(["client_id":"mobile_android","client_secret":"secret","grant_type":"client_credentials"], completionHandler: { (success, data, response) in
+//
+//            print(response)
+//            })
+//        { (error) in
+//                print (error)
+//
+//        }

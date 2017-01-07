@@ -1,0 +1,81 @@
+
+// for get Services
+
+
+ let accountServi = AccountServices()
+
+//        accountServi.getAllList {  (success, data, response) in
+//        if success{
+//                print(response)
+//
+//            }
+//        }
+
+
+//        accountServi.getBanners { (success, data, response) in
+//            if success
+//            {
+//                print("the response is \(response)")
+//
+//            }
+//
+//        }
+
+
+accountServi.getCart { (success, data, response) in
+if success{
+print("the cart data is \(response)")
+}
+
+}
+
+// for constants
+let accountServi = AccountServices()
+
+
+ALConstant.Constants.userName
+let appService = ALApplicaitonDataService.sharedInstance
+
+
+
+
+
+//        appService.setConfiguration("Raviindu", forKey: "NAme")
+//        try! appService.saveConfiguration()
+//
+
+//   appService = [ServicesFactory applicationService];
+
+//        accountServi.getCart { (success, data, response) in
+//            if success{
+//                print("the cart data is \(response)")
+//            }
+//        }
+//codeListString=6000005 805&pinCode=560066&qty=1
+//        let postData :[String:String] = ["codeListString":"6000005805" ,"pinCode":"560066","qty":"1"]
+//
+//        accountServi.addToCart(postData) { (success, data, response) in
+//        if success
+//        {
+//            print(response)
+//
+//        }
+//        }
+
+accountServi.getAllList {  (success, data, response) in
+if success{
+print(response)
+
+}
+}
+
+
+//
+let buttonFrame:CGRect = CGRect.init(x: 150.0, y: 150.0, width: 150.0, height: 150.0)
+let buttons = ALElemetSkin.button(buttonFrame, title: "asfdsadfsadf")
+buttons.layer.borderWidth = 2
+buttons.backgroundColor = UIColor.redColor()
+self.view.addSubview(buttons)
+
+
+

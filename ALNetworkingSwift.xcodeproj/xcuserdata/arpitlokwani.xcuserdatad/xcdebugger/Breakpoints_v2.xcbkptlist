@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccountServices.swift"
+            timestampString = "505478074.864301"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "setServiceabilityArea(postParams:completionHandler:errorHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccountServices.swift"
+            timestampString = "505478076.954388"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "setServiceabilityArea(postParams:completionHandler:errorHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ALNetworkingSwift.AccountServices.(setServiceabilityArea (__ObjC.NSDictionary, completionHandler : (success : Swift.Bool, data : __ObjC.NSData, response : Swift.AnyObject) -&gt; (), errorHandler : Swift.Optional&lt;(error : __ObjC.NSError) -&gt; ()&gt;) -&gt; ()).(closure #1)"
+                  moduleName = "ALNetworkingSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arpitlokwani/Downloads/ALNetworkingSwift%20NEw/AccountServices.swift"
+                  timestampString = "505478264.522638"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "118">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ALNetworkingSwift.AccountServices.(setServiceabilityArea (__ObjC.NSDictionary, completionHandler : (success : Swift.Bool, data : __ObjC.NSData, response : Swift.AnyObject) -&gt; (), errorHandler : Swift.Optional&lt;(error : __ObjC.NSError) -&gt; ()&gt;) -&gt; ()).(closure #2)"
+                  moduleName = "ALNetworkingSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arpitlokwani/Downloads/ALNetworkingSwift%20NEw/AccountServices.swift"
+                  timestampString = "505478264.525114"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "39">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccountServices.swift"
+            timestampString = "505478078.039323"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "setServiceabilityArea(postParams:completionHandler:errorHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ALNetworkServiceMock.swift"
+            timestampString = "505478116.273059"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
+            landmarkName = "postServiceRequest(service:isIncludeAPIRoot:postParams:isAsyncRequest:isTokenRequired:isCancelRequired:isReloadRequired:completetionHandler:faultHndler:errorHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ALNetworkingSwift.ALNetworkServiceMock.postServiceRequest (Swift.String, isIncludeAPIRoot : Swift.Bool, postParams : __ObjC.NSDictionary, isAsyncRequest : Swift.Bool, isTokenRequired : Swift.Bool, isCancelRequired : Swift.Bool, isReloadRequired : Swift.Bool, completetionHandler : (success : Swift.Bool, data : __ObjC.NSData, response : Swift.AnyObject) -&gt; (), faultHndler : (faultCode : Swift.Int, faultDetails : Swift.String, data : __ObjC.NSData) -&gt; (), errorHandler : Swift.Optional&lt;(error : __ObjC.NSError) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "ALNetworkingSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arpitlokwani/Downloads/ALNetworkingSwift%20NEw/ALNetworkServiceMock.swift"
+                  timestampString = "505478264.544299"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "226"
+                  endingLineNumber = "226"
+                  offsetFromSymbolStart = "558">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ALNetworkingSwift.ALNetworkServiceMock.(postServiceRequest (Swift.String, isIncludeAPIRoot : Swift.Bool, postParams : __ObjC.NSDictionary, isAsyncRequest : Swift.Bool, isTokenRequired : Swift.Bool, isCancelRequired : Swift.Bool, isReloadRequired : Swift.Bool, completetionHandler : (success : Swift.Bool, data : __ObjC.NSData, response : Swift.AnyObject) -&gt; (), faultHndler : (faultCode : Swift.Int, faultDetails : Swift.String, data : __ObjC.NSData) -&gt; (), errorHandler : Swift.Optional&lt;(error : __ObjC.NSError) -&gt; ()&gt;) -&gt; ()).(closure #1)"
+                  moduleName = "ALNetworkingSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arpitlokwani/Downloads/ALNetworkingSwift%20NEw/ALNetworkServiceMock.swift"
+                  timestampString = "505478264.546777"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "228"
+                  endingLineNumber = "228"
+                  offsetFromSymbolStart = "34">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ALNetworkServiceMock.swift"
+            timestampString = "505478117.222357"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "228"
+            endingLineNumber = "228"
+            landmarkName = "postServiceRequest(service:isIncludeAPIRoot:postParams:isAsyncRequest:isTokenRequired:isCancelRequired:isReloadRequired:completetionHandler:faultHndler:errorHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ALNetworkServiceMock.swift"
+            timestampString = "505478119.653854"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "233"
+            endingLineNumber = "233"
+            landmarkName = "postServiceRequest(service:isIncludeAPIRoot:postParams:isAsyncRequest:isTokenRequired:isCancelRequired:isReloadRequired:completetionHandler:faultHndler:errorHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

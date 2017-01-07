@@ -5,23 +5,42 @@
 //  Created by Arpit Lokwani on 7/6/16.
 //  Copyright © 2016 Embitel. All rights reserved.
 //
-
+// latest 24 july
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var serviceFactory:ALServiceFactory!
+    lazy var appService = ALApplicaitonDataService()
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        self.initBaseServices()
+        
         return true
     }
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+    }
+
+    func applicationDocumentDirectory() -> NSURL{
+        return NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0]
+    }
+    
+    func initBaseServices(){
+        
+        appService.model!.configuarionFilePath = self.applicationDocumentDirectory().URLByAppendingPathComponent("ALConfiguration.plist")
+        appService.setConfiguration("true", forKey: "initialize")
+        try! appService.saveConfiguration()
+
+        try! appService.loadConfiguration { (succes) in
+            
+            
+        }
     }
 
     func applicationDidEnterBackground(application: UIApplication) {

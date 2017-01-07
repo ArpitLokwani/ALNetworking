@@ -1,0 +1,62 @@
+var tableView: UITableView  =   UITableView()
+let asynDownloadInstance = ALAsyncImageDownloader()
+
+override func viewDidLoad() {
+super.viewDidLoad()
+tableView = UITableView(frame: UIScreen.mainScreen().bounds, style: UITableViewStyle.Plain)
+tableView.delegate      =   self
+tableView.dataSource    =   self
+tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
+self.view.addSubview(self.tableView)
+}
+
+
+
+
+//****************
+func tableView(tableView:UITableView!, numberOfRowsInSection section:Int) -> Int {
+return 50
+}
+
+func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
+
+let cell:UITableViewCell=UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "mycell")
+var imageView : UIImageView
+imageView  = UIImageView(frame:CGRectMake(10, 50,40,40));
+cell.contentView.addSubview(imageView)
+imageView.layer.borderWidth = 2
+
+let URL = String.imageURL(indexPath.row)
+let placeholder = UIImage(named: "demo.jpg")!
+imageView.load(URL, placeholder: placeholder) { URL, image, error, cacheType in
+print("URL \(URL)")
+print("error \(error)")
+// print("image \(image?.size), render-image \(cell.thumbnailView.image?.size)")
+print("cacheType \(cacheType.hashValue)")
+if cacheType == CacheType.None {
+let transition = CATransition()
+transition.duration = 0.5
+transition.type = kCATransitionFade
+imageView.layer.addAnimation(transition, forKey: nil)
+imageView.image = image
+}
+}
+return cell
+
+}
+//*******************
+
+
+OR
+
+let asynDownloadInstance = ALAsyncImageDownloader()
+asynDownloadInstance.initWithMediaURL("http://farm8.staticflickr.com/7315/9046944633_881f24c4fa_s.jpg", successBlock: { (image) in
+imageView.image = image
+imageView2.image   = image
+}) { (error) in
+print("there is an errir \(error)")
+}
+asynDownloadInstance.startDownload()
+
+
+

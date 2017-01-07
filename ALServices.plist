@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BannerService</key>
+	<string>BannerServiceMock</string>
+	<key>ImageService</key>
+	<string>ImageServiceMock</string>
+	<key>ApplicationService</key>
+	<string>ApplicationServiceMock</string>
+	<key>RegistrationService</key>
+	<string>RegistrationServiceMock</string>
+	<key>AccountService</key>
+	<string>AccountServiceMock</string>
+	<key>OrderService</key>
+	<string>OrderServiceMock</string>
+	<key>ProductService</key>
+	<string>ProductServiceMock</string>
+	<key>NetworkService</key>
+	<string>ALNetworkServiceMock</string>
+</dict>
+</plist>
